@@ -1,4 +1,20 @@
 package org.schapm.tictactoe;
 
+/**
+ *
+ * @author schapm
+ */
+
 public class Player {
+
+    private final String name;
+
+    public Player(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+    
 }
